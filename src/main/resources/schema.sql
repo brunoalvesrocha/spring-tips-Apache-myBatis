@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS car;
+
+CREATE TABLE car (
+
+  id    BIGINT SERIAL NOT NULL,
+  make  VARCHAR(255)  NOT NULL,
+  model VARCHAR(255)  NOT NULL,
+  YEAR  INT           NOT NULL
+)
